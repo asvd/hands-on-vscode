@@ -1,0 +1,297 @@
+{
+  "name": "hands-on",
+  "displayName": "hands-on",
+  "description": "Keep your hands in typing position at all times",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.69.0"
+  },
+  "categories": [
+    "Keymaps"
+  ],
+  "contributes": {
+    "keybindings": [
+      {
+        "key": "alt+[KeyJ]",
+        "command": "cursorLeft"
+      },
+      {
+        "key": "alt+[Semicolon]",
+        "command": "cursorRight"
+      },
+      {
+        "key": "alt+[KeyL]",
+        "command": "cursorUp"
+      },
+      {
+        "key": "alt+[KeyK]",
+        "command": "cursorDown"
+      },
+      {
+        "key": "alt+ctrl+[KeyJ]",
+        "command": "cursorWordPartLeft"
+      },
+      {
+        "key": "alt+ctrl+[Semicolon]",
+        "command": "cursorWordPartRight"
+      },
+      {
+        "key": "alt+ctrl+[KeyL]",
+        "command": "cursorMove",
+        "args": {
+          "to": "up",
+          "by": "line",
+          "value": 5
+        }
+      },
+      {
+        "key": "alt+ctrl+[KeyK]",
+        "command": "cursorMove",
+        "args": {
+          "to": "down",
+          "by": "line",
+          "value": 5
+        }
+      },
+      {
+        "key": "alt+shift+[KeyJ]",
+        "command": "cursorLeftSelect"
+      },
+      {
+        "key": "alt+shift+[Semicolon]",
+        "command": "cursorRightSelect"
+      },
+      {
+        "key": "alt+shift+[KeyL]",
+        "command": "cursorUpSelect"
+      },
+      {
+        "key": "alt+shift+[KeyK]",
+        "command": "cursorDownSelect"
+      },
+      {
+        "key": "alt+ctrl+shift+[KeyJ]",
+        "command": "cursorWordPartLeftSelect"
+      },
+      {
+        "key": "alt+ctrl+shift+[Semicolon]",
+        "command": "cursorWordPartRightSelect"
+      },
+      {
+        "key": "alt+ctrl+shift+[KeyL]",
+        "command": "cursorMove",
+        "args": {
+          "to": "up",
+          "by": "line",
+          "value": 5,
+          "select": true
+        }
+      },
+      {
+        "key": "alt+ctrl+shift+[KeyK]",
+        "command": "cursorMove",
+        "args": {
+          "to": "down",
+          "by": "line",
+          "value": 5,
+          "select": true
+        }
+      },
+      {
+        "key": "alt+[KeyO]",
+        "command": "editorScroll",
+        "args": {
+          "to": "down",
+          "by": "line",
+          "value": 3,
+          "revealCursor": true
+        }
+      },
+      {
+        "key": "alt+[KeyI]",
+        "command": "editorScroll",
+        "args": {
+          "to": "up",
+          "by": "line",
+          "value": 3,
+          "revealCursor": true
+        }
+      },
+      {
+        "key": "alt+ctrl+[KeyO]",
+        "command": "editorScroll",
+        "args": {
+          "to": "down",
+          "by": "line",
+          "value": 10,
+          "revealCursor": true
+        }
+      },
+      {
+        "key": "alt+ctrl+[KeyI]",
+        "command": "editorScroll",
+        "args": {
+          "to": "up",
+          "by": "line",
+          "value": 10,
+          "revealCursor": true
+        }
+      },
+      {
+        "key": "alt+[KeyM]",
+        "command": "cursorLineStart"
+      },
+      {
+        "key": "alt+[Slash]",
+        "command": "cursorLineEnd"
+      },
+      {
+        "key": "alt+[Period]",
+        "command": "cursorPageUp"
+      },
+      {
+        "key": "alt+[Comma]",
+        "command": "cursorPageDown"
+      },
+      {
+        "key": "alt+shift+[KeyM]",
+        "command": "cursorLineStartSelect"
+      },
+      {
+        "key": "alt+shift+[Slash]",
+        "command": "cursorLineEndSelect"
+      },
+      {
+        "key": "alt+shift+[Period]",
+        "command": "cursorPageUpSelect"
+      },
+      {
+        "key": "alt+shift+[Comma]",
+        "command": "cursorPageDownSelect"
+      },
+      {
+        "key": "alt+ctrl+[KeyM]",
+        "command": "cursorMove",
+        "args": {
+          "to": "wrappedLineFirstNonWhitespaceCharacter"
+        }
+      },
+      {
+        "key": "alt+ctrl+[Slash]",
+        "command": "cursorMove",
+        "args": {
+          "to": "wrappedLineLastNonWhitespaceCharacter"
+        }
+      },
+      {
+        "key": "alt+ctrl+[Period]",
+        "command": "cursorMove",
+        "args": {
+          "to": "up",
+          "by": "line",
+          "value": 1000000000
+        }
+      },
+      {
+        "key": "alt+ctrl+[Comma]",
+        "command": "cursorMove",
+        "args": {
+          "to": "down",
+          "by": "line",
+          "value": 1000000000
+        }
+      },
+      {
+        "key": "alt+ctrl+shift+[KeyM]",
+        "command": "cursorMove",
+        "args": {
+          "to": "wrappedLineFirstNonWhitespaceCharacter",
+          "select": true
+        }
+      },
+      {
+        "key": "alt+ctrl+shift+[Slash]",
+        "command": "cursorMove",
+        "args": {
+          "to": "wrappedLineLastNonWhitespaceCharacter",
+          "select": true
+        }
+      },
+      {
+        "key": "alt+ctrl+shift+[Period]",
+        "command": "cursorMove",
+        "args": {
+          "to": "up",
+          "by": "line",
+          "value": 1000000000,
+          "select": true
+        }
+      },
+      {
+        "key": "alt+ctrl+shift+[Comma]",
+        "command": "cursorMove",
+        "args": {
+          "to": "down",
+          "by": "line",
+          "value": 1000000000,
+          "select": true
+        }
+      },
+      {
+        "key": "alt+[BracketLeft]",
+        "command": "deleteLeft"
+      },
+      {
+        "key": "alt+[BracketRight]",
+        "command": "deleteRight"
+      },
+      {
+        "key": "alt+ctrl+[BracketLeft]",
+        "command": "deleteWordPartLeft"
+      },
+      {
+        "key": "alt+ctrl+[BracketRight]",
+        "command": "deleteWordPartRight"
+      },
+      {
+        "key": "alt+[Quote]",
+        "command": "type",
+        "args": {
+          "text": "\n"
+        }
+      },
+      {
+        "key": "meta+[KeyJ]",
+        "command":  "workbench.action.focusLeftGroup"
+      },
+      {
+        "key": "meta+[Semicolon]",
+        "command":  "workbench.action.focusRightGroup"
+      },
+      {
+        "key": "meta+[KeyL]",
+        "command":  "workbench.action.focusAboveGroup"
+      },
+      {
+        "key": "meta+[KeyK]",
+        "command":  "workbench.action.focusBelowGroup"
+      },
+      {
+        "key": "meta+[KeyU]",
+        "command":  "workbench.action.decreaseViewWidth"
+      },
+      {
+        "key": "meta+[KeyP]",
+        "command":  "workbench.action.increaseViewWidth"
+      },
+      {
+        "key": "meta+[KeyO]",
+        "command":  "workbench.action.decreaseViewHeight"
+      },
+      {
+        "key": "meta+[KeyI]",
+        "command":  "workbench.action.increaseViewHeight"
+      }
+    ]
+  }
+}
