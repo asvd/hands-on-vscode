@@ -2,6 +2,7 @@
   "name": "hands-on",
   "displayName": "hands-on",
   "description": "Keep your hands in typing position at all times",
+  "publisher": "asvd",
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.69.0"
