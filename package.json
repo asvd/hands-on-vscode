@@ -2,15 +2,10 @@
   "name": "hands-on",
   "displayName": "hands-on",
   "description": "Keep your hands in typing position at all times",
-  "publisher": "asvd",
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.69.0"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/asvd/hands-on-vscode.git"
-  },  
   "categories": [
     "Keymaps"
   ],
@@ -108,7 +103,7 @@
         "args": {
           "to": "down",
           "by": "line",
-          "value": 3,
+          "value": 1,
           "revealCursor": true
         }
       },
@@ -118,7 +113,7 @@
         "args": {
           "to": "up",
           "by": "line",
-          "value": 3,
+          "value": 1,
           "revealCursor": true
         }
       },
@@ -128,7 +123,7 @@
         "args": {
           "to": "down",
           "by": "line",
-          "value": 10,
+          "value": 4,
           "revealCursor": true
         }
       },
@@ -138,17 +133,23 @@
         "args": {
           "to": "up",
           "by": "line",
-          "value": 10,
+          "value": 4,
           "revealCursor": true
         }
       },
       {
         "key": "alt+[KeyM]",
-        "command": "cursorLineStart"
+        "command": "cursorMove",
+        "args": {
+          "to": "wrappedLineFirstNonWhitespaceCharacter"
+        }
       },
       {
         "key": "alt+[Slash]",
-        "command": "cursorLineEnd"
+        "command": "cursorMove",
+        "args": {
+          "to": "wrappedLineLastNonWhitespaceCharacter"
+        }
       },
       {
         "key": "alt+[Period]",
@@ -160,11 +161,19 @@
       },
       {
         "key": "alt+shift+[KeyM]",
-        "command": "cursorLineStartSelect"
+        "command": "cursorMove",
+        "args": {
+          "to": "wrappedLineFirstNonWhitespaceCharacter",
+          "select": true
+        }
       },
       {
         "key": "alt+shift+[Slash]",
-        "command": "cursorLineEndSelect"
+        "command": "cursorMove",
+        "args": {
+          "to": "wrappedLineLastNonWhitespaceCharacter",
+          "select": true
+        }
       },
       {
         "key": "alt+shift+[Period]",
@@ -176,17 +185,11 @@
       },
       {
         "key": "alt+ctrl+[KeyM]",
-        "command": "cursorMove",
-        "args": {
-          "to": "wrappedLineFirstNonWhitespaceCharacter"
-        }
+        "command": "cursorLineStart"
       },
       {
         "key": "alt+ctrl+[Slash]",
-        "command": "cursorMove",
-        "args": {
-          "to": "wrappedLineLastNonWhitespaceCharacter"
-        }
+        "command": "cursorLineEnd"
       },
       {
         "key": "alt+ctrl+[Period]",
@@ -208,19 +211,11 @@
       },
       {
         "key": "alt+ctrl+shift+[KeyM]",
-        "command": "cursorMove",
-        "args": {
-          "to": "wrappedLineFirstNonWhitespaceCharacter",
-          "select": true
-        }
+        "command": "cursorLineStartSelect"
       },
       {
         "key": "alt+ctrl+shift+[Slash]",
-        "command": "cursorMove",
-        "args": {
-          "to": "wrappedLineLastNonWhitespaceCharacter",
-          "select": true
-        }
+        "command": "cursorLineEndSelect"
       },
       {
         "key": "alt+ctrl+shift+[Period]",
@@ -267,34 +262,42 @@
       },
       {
         "key": "meta+[KeyJ]",
+        "win": "alt+win+[KeyJ]",
         "command":  "workbench.action.focusLeftGroup"
       },
       {
         "key": "meta+[Semicolon]",
+        "win": "alt+win+[Semicolon]",
         "command":  "workbench.action.focusRightGroup"
       },
       {
         "key": "meta+[KeyL]",
+        "win": "alt+win+[KeyL]",
         "command":  "workbench.action.focusAboveGroup"
       },
       {
         "key": "meta+[KeyK]",
+        "win": "alt+win+[KeyK]",
         "command":  "workbench.action.focusBelowGroup"
       },
       {
         "key": "meta+[KeyU]",
+        "win": "alt+win+[KeyU]",
         "command":  "workbench.action.decreaseViewWidth"
       },
       {
         "key": "meta+[KeyP]",
+        "win": "alt+win+[KeyP]",
         "command":  "workbench.action.increaseViewWidth"
       },
       {
         "key": "meta+[KeyO]",
+        "win": "alt+win+[KeyO]",
         "command":  "workbench.action.decreaseViewHeight"
       },
       {
         "key": "meta+[KeyI]",
+        "win": "alt+win+[KeyI]",
         "command":  "workbench.action.increaseViewHeight"
       }
     ]

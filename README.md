@@ -16,17 +16,19 @@
 | <kbd>**Alt**</kbd> <kbd>**L**</kbd> | move up |
 | <kbd>**Alt**</kbd> <kbd>**:**</kbd> | move right |
 | **Lower row** | **works on bigger distance** |
-| <kbd>**Alt**</kbd> <kbd>**M**</kbd> | move to the line start <kbd>**Home**</kbd> |
+| <kbd>**Alt**</kbd> <kbd>**M**</kbd> | move to the line start <kbd>**Home**</kbd> (first non-whitespace character of a wrapped part of the line) |
 | <kbd>**Alt**</kbd> <kbd>**,**</kbd> | page down |
 | <kbd>**Alt**</kbd> <kbd>**.**</kbd> | page up |
-| <kbd>**Alt**</kbd> <kbd>**/**</kbd> | move to the end of the line <kbd>**End**</kbd> |
+| <kbd>**Alt**</kbd> <kbd>**/**</kbd> | move to the line end <kbd>**End**</kbd> (last non-whitespace character of a wrapped part of the line) |
 | **Adding** <kbd>**Ctrl**</kbd> | **increases impact** |
 | <kbd>**Ctrl**</kbd> <kbd>**Alt**</kbd> <kbd>**J**</kbd> | move left one word |
 | <kbd>**Ctrl**</kbd> <kbd>**Alt**</kbd> <kbd>**K**</kbd> | move down 5 lines |
 | <kbd>**Ctrl**</kbd> <kbd>**Alt**</kbd> <kbd>**L**</kbd> | move up 5 lines |
 | <kbd>**Ctrl**</kbd> <kbd>**Alt**</kbd> <kbd>**:**</kbd> | move right one word |
+| <kbd>**Ctrl**</kbd> <kbd>**Alt**</kbd> <kbd>**M**</kbd> | move to the (whole) line start |
 | <kbd>**Ctrl**</kbd> <kbd>**Alt**</kbd> <kbd>**,**</kbd> | move to the file start |
 | <kbd>**Ctrl**</kbd> <kbd>**Alt**</kbd> <kbd>**.**</kbd> | move to the file end |
+| <kbd>**Ctrl**</kbd> <kbd>**Alt**</kbd> <kbd>**/**</kbd> | move to the (whole) line end |
 | **Adding** <kbd>**Shift**</kbd> | **also performs selection** |
 | ... | ...for example... |
 | <kbd>**Alt**</kbd> <kbd>**Shift**</kbd> <kbd>**J**</kbd> | select one character to the left |
@@ -44,16 +46,17 @@
 | <kbd>**Alt**</kbd> <kbd>**]**</kbd> | erase to the right <kbd>**Delete**</kbd>|
 | <kbd>**Ctrl**</kbd> <kbd>**Alt**</kbd> <kbd>**[**</kbd> | erase word to the left |
 | <kbd>**Ctrl**</kbd> <kbd>**Alt**</kbd> <kbd>**]**</kbd> | erase word to the right |
-| **Using** <kbd>**Win**</kbd> **(**<kbd>**Command**</kbd> **on Mac)** | **performs group navigation** |
-| <kbd>**Win**</kbd> <kbd>**J**</kbd> | switch to the group on the left |
-| <kbd>**Win**</kbd> <kbd>**K**</kbd> | switch to the group below |
-| <kbd>**Win**</kbd> <kbd>**L**</kbd> | switch to the group above |
-| <kbd>**Win**</kbd> <kbd>**:**</kbd> | switch to the group on the right |
-| <kbd>**Win**</kbd> <kbd>**U**</kbd> | decrease group width |
-| <kbd>**Win**</kbd> <kbd>**I**</kbd> | decrease group height |
-| <kbd>**Win**</kbd> <kbd>**O**</kbd> | increase group height |
-| <kbd>**Win**</kbd> <kbd>**P**</kbd> | increase group width |
+| **Using** <kbd>**Meta**</kbd> **(**<kbd>**Command**</kbd> **on Mac,** <kbd>**Win**</kbd>+<kbd>**Alt**</kbd> **on Windowss)** | **performs group navigation** |
+| <kbd>**Meta**</kbd> <kbd>**J**</kbd> | switch to the group on the left |
+| <kbd>**Meta**</kbd> <kbd>**K**</kbd> | switch to the group below |
+| <kbd>**Meta**</kbd> <kbd>**L**</kbd> | switch to the group above |
+| <kbd>**Meta**</kbd> <kbd>**:**</kbd> | switch to the group on the right |
+| <kbd>**Meta**</kbd> <kbd>**U**</kbd> | decrease group width |
+| <kbd>**Meta**</kbd> <kbd>**I**</kbd> | decrease group height |
+| <kbd>**Meta**</kbd> <kbd>**O**</kbd> | increase group height |
+| <kbd>**Meta**</kbd> <kbd>**P**</kbd> | increase group width |
 
+> **note**: <kbd>**Meta**</kbd> stands for <kbd>**Win**</kbd>+<kbd>**Alt**</kbd> on Windows (not just <kbd>**Win**</kbd>) in order to avoid conflicts with sytem hotkeys
 
 > **note**: there is no additional keybinding to split or close group provided by **hands-on**, because it is available in Visual Studio Code by combinations like <kbd>**Ctrl**</kbd> <kbd>**/**</kbd> and  <kbd>**Ctrl**</kbd> <kbd>**W**</kbd>
 
