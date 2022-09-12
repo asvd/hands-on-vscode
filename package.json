@@ -3,7 +3,7 @@
   "displayName": "hands-on",
   "description": "Keep your hands in typing position at all times",
   "publisher": "asvd",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "engines": {
     "vscode": "^1.69.0"
   },
@@ -268,42 +268,42 @@
       {
         "key": "meta+[KeyJ]",
         "win": "alt+win+[KeyJ]",
-        "command":  "workbench.action.focusLeftGroup"
+        "command": "workbench.action.focusLeftGroup"
       },
       {
         "key": "meta+[Semicolon]",
         "win": "alt+win+[Semicolon]",
-        "command":  "workbench.action.focusRightGroup"
+        "command": "workbench.action.focusRightGroup"
       },
       {
         "key": "meta+[KeyL]",
         "win": "alt+win+[KeyL]",
-        "command":  "workbench.action.focusAboveGroup"
+        "command": "workbench.action.focusAboveGroup"
       },
       {
         "key": "meta+[KeyK]",
         "win": "alt+win+[KeyK]",
-        "command":  "workbench.action.focusBelowGroup"
+        "command": "workbench.action.focusBelowGroup"
       },
       {
         "key": "meta+[KeyU]",
         "win": "alt+win+[KeyU]",
-        "command":  "workbench.action.decreaseViewWidth"
+        "command": "workbench.action.decreaseViewWidth"
       },
       {
         "key": "meta+[KeyP]",
         "win": "alt+win+[KeyP]",
-        "command":  "workbench.action.increaseViewWidth"
+        "command": "workbench.action.increaseViewWidth"
       },
       {
         "key": "meta+[KeyO]",
         "win": "alt+win+[KeyO]",
-        "command":  "workbench.action.decreaseViewHeight"
+        "command": "workbench.action.decreaseViewHeight"
       },
       {
         "key": "meta+[KeyI]",
         "win": "alt+win+[KeyI]",
-        "command":  "workbench.action.increaseViewHeight"
+        "command": "workbench.action.increaseViewHeight"
       }
     ]
   }
