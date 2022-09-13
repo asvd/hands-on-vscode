@@ -46,7 +46,7 @@
 | <kbd>**Alt**</kbd> <kbd>**]**</kbd> | erase to the right <kbd>**Delete**</kbd>|
 | <kbd>**Ctrl**</kbd> <kbd>**Alt**</kbd> <kbd>**[**</kbd> | erase word to the left |
 | <kbd>**Ctrl**</kbd> <kbd>**Alt**</kbd> <kbd>**]**</kbd> | erase word to the right |
-| **Using** <kbd>**Meta**</kbd> **(**<kbd>**Command**</kbd> **on Mac,** <kbd>**Win**</kbd>+<kbd>**Alt**</kbd> **on Windowss)** | **performs group navigation** |
+| **Using** <kbd>**Meta**</kbd> **(**<kbd>**Command**</kbd> **on Mac,** <kbd>**Win**</kbd>+<kbd>**Alt**</kbd> **on Windows)** | **performs group navigation** |
 | <kbd>**Meta**</kbd> <kbd>**J**</kbd> | switch to the group on the left |
 | <kbd>**Meta**</kbd> <kbd>**K**</kbd> | switch to the group below |
 | <kbd>**Meta**</kbd> <kbd>**L**</kbd> | switch to the group above |
